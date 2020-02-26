@@ -1812,4 +1812,10 @@ input.valid {
   color: #EFBB10;
 }
 
-/*# sourceMappingURL=my.css.map */
+.sub-menu__list li a img {
+  display: block;
+  width: 175px;
+  height: 175px;
+  border: 1px solid red;
+}
+
