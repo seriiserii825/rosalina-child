@@ -9,6 +9,10 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="utf-8">
+
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
+
     <meta name="description" content="Qualunque sia la tua idea di vacanza, a Rosolina Mare puoi trovare hotel, villaggi turistici, spiagge ed escursioni che renderanno indimenticabile il tuo soggiorno."/>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/my.css">
 	<title>Rosolina mare | Dono di natura</title>
@@ -133,36 +137,7 @@
 		<div class="main-footer__contacts">
 			<h2 class="section__title">Contattaci</h2>
 			<div class="main-footer__form-wrap">
-				<div class="form">
-					<form method="POST" id="js-form">
-						<div class="form-group form-group--flex">
-							<div class="form-elem">
-								<input type="text" id="js-text" name="name" placeholder="Nome">
-							</div>
-							<div class="form-elem">
-								<input type="email" id="js-email" name="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="form-elem">
-								<input type="text" id="js-oggetto" name="oggetto" placeholder="Oggetto">
-							</div>
-						</div>
-						<div class="form-group form-group--textarea">
-							<div class="form-elem">
-								<textarea name="messaggio" id="js-messaggio" placeholder="Messaggio"></textarea>
-							</div>
-						</div>
-						<div class="form-footer">
-							<input class="form-submit-btn" type="submit" value="Invia">
-							<div class="privacy">
-								<input class="checkbox" type="checkbox" name="check" id="check">
-								<label for="check">Cliccando su invia dichiari di aver preso visione e di accettare la nostra <a href="https://visitrosolina.it/cookies-and-privacy/">privacy policy</a></label>
-							</div>
-                            <div id="submit-ajax"></div>
-						</div>
-					</form>
-				</div>
+                <?php require_once __DIR__.'/inc-custom/footer-form.php'; ?>
 				<div class="main-footer__text">
 					<p>Ufficio informazioni e<br> accoglianza turistica</p>
 					<p>Centro Congressi Piazzale Europa</p>

@@ -300,33 +300,7 @@
 			<h2 class="section__title">Contattaci</h2>
 			<div class="main-footer__form-wrap">
 				<div class="form">
-					<form action="mail.php" method="POST" id="js-form">
-						<div class="form-group form-group--flex">
-							<div class="form-elem">
-								<input type="text" id="js-text" name="name" placeholder="Nome">
-							</div>
-							<div class="form-elem">
-								<input type="email" id="js-email" name="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="form-elem">
-								<input type="text" id="js-oggetto" name="oggetto" placeholder="Oggetto">
-							</div>
-						</div>
-						<div class="form-group form-group--textarea">
-							<div class="form-elem">
-								<textarea name="messaggio" id="js-messaggio" placeholder="Messaggio"></textarea>
-							</div>
-						</div>
-						<div class="form-footer">
-							<input type="submit" value="Invia">
-							<div class="privacy">
-								<input class="checkbox" type="checkbox" name="check" id="check">
-								<label for="check">Cliccando su invia dichiari di aver preso visione e di accettare la nostra <a href="https://visitrosolina.it/cookies-and-privacy/">privacy policy</a></label>
-							</div>
-						</div>
-					</form>
+					<?php require_once __DIR__.'/inc-custom/footer-form.php'; ?>
 				</div>
 				<div class="main-footer__text">
 					<p>Ufficio informazioni e<br> accoglianza turistica</p>
