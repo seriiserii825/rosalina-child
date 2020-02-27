@@ -10,6 +10,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="utf-8">
     <meta name="description" content="Le agenzie immobiliari di Rosolina Mare offrono numerose opportunità di soggiorno in appartamenti per famiglie e coppie"/>
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/my.css">
     <title>Rosolina mare | Dove dormire | Agenzie Immobiliari ed appartamenti</title>
 </head>

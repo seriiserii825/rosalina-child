@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="description" content="Rosolina Mare offre numerosi villaggi turistici e campeggi dove poter soggiornare e trascorrere una indimenticabile vacanza"/>
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/my.css">
     <title>Rosolina mare | Dove dormire | Villaggi turistici e campeggi</title>
 </head>
