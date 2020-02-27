@@ -56,14 +56,7 @@
 				<li class="main-menu-mobile-submenu__item"><a class="main-menu-mobile-submenu__link" href="https://visitrosolina.it/scopri-rosolina-mare/nei-dintorni/">Nei dintorni</a></li>
 			</ul>
 		</li>
-		<li class="main-menu-mobile__item">
-			<div class="main-menu-mobile__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/i/arrow-down-white.svg" alt="arrow"></div><a class="main-menu-mobile__link" href="https://visitrosolina.it/dove-dormire/">Dove dormire</a>
-			<ul class="main-menu-mobile-submenu">
-				<li class="main-menu-mobile-submenu__item"><a class="main-menu-mobile-submenu__link" href="hotel.html">Hotel</a></li>
-				<li class="main-menu-mobile-submenu__item"><a class="main-menu-mobile-submenu__link" href="vilagi-turistici.html">Villaggi turistici</a></li>
-				<li class="main-menu-mobile-submenu__item"><a class="main-menu-mobile-submenu__link" href="agenzie-immobiliari.html">Agenzie immobiliari</a></li>
-			</ul>
-		</li>
+        <?php require_once __DIR__.'/inc-custom/dove-dormire-mobile-menu.php';?>
 		<li class="main-menu-mobile__item"><a class="main-menu-mobile__link" href="https://visitrosolina.it/webcam-e-meteo/">Webcam e meteo</a></li>
 		<li class="main-menu-mobile__item"><a class="main-menu-mobile__link" href="https://visitrosolina.it/eventi-e-news/">Eventi e news</a></li>
 		<li class="main-menu-mobile__item"><a class="main-menu-mobile__link" href="https://visitrosolina.it/info-e-contatti/">Info e contatti</a></li>
