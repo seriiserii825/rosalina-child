@@ -371,7 +371,7 @@ p {
   position: absolute;
   top: 90px;
   left: 0;
-  display: block;
+  display: none;
   width: 1920px;
   background: #103272;
   z-index: 1000;
