@@ -13,6 +13,14 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/my.css">
     <title>Rosolina mare | Dove dormire (Hotel, Villaggi e campeggi)</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156644248-1"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-156644248-1', { 'anonymize_ip': true });
+    </script>
 </head>
 <body>
 <div class="hidden">
